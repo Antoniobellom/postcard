@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    font-size: 18px;
+    font-family: "Lobster", cursive;
+  }
+  
+  .post{
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  input {
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid rgb(89, 73, 133);
+    font-family: "Lobster", cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .post h1 {
+    margin: 0;
+  }
+  .header img {
+    max-width: 60px;
+    float: right;
+    overflow: hidden;
+  }
+  .header {
+    overflow: hidden;
+  }
+  .medio {
+    overflow: hidden;
+  }
+  .derecha {
+    float: left;
+    width: 50%;
+  }
+  .izquierda{
+    float: right;
+    width: 50%;
+  }
+  .derecha input {
+    display: block;
+    width: 250px;
+    font-family: "Lobster", cursive;
+  }
+  .footer {
+    padding: 10px;
+    text-align: center;
+  }
+  .footer input {
+    background-color: grey;
+    font-size: 20px;
+  }
+  .medio input {
+    padding: 5px;
+  }
+  
